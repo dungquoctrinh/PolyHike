@@ -24,13 +24,4 @@ public class Site {
         this.difficulty = trailLength + currentHikers + popularity - parkingSpots;
 
     }
-
-
-
-
-
-
-
-
-
 }

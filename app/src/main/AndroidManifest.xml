@@ -20,7 +20,6 @@
             android:name=".LoginIn"
             android:label="@string/title_activity_login_in_window"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginIn"></activity>
     </application>
 
 </manifest>
