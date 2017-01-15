@@ -11,17 +11,16 @@ public class Site {
     protected String description;
     protected int popularity;
     protected int trailLength;
-    protected float difficulty;
+    protected int difficulty;
 
-    public Site(int parkingSpots, int currentHikers, String description, int popularity, int trailLength) {
+    public Site(int parkingSpots, int currentHikers, String description, int popularity, int trailLength, int difficulty) {
         this.parkingSpots = parkingSpots;
         this.currentHikers = currentHikers;
         this.description = description;
         this.popularity = popularity;
         this.trailLength = trailLength;
-
         //Set difficulty
-        this.difficulty = trailLength + currentHikers + popularity - parkingSpots;
+        this.difficulty = difficulty;
 
     }
 }

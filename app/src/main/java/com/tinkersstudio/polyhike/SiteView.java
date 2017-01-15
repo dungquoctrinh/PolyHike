@@ -33,6 +33,6 @@ public class SiteView extends LinearLayout{
     public void setSite(Site site) {
         this.site = site;
 
-        }
+
     }
 }
