@@ -15,6 +15,7 @@ public class SiteView extends LinearLayout{
 
     private Button more;
     private Site site;
+    private String summary;
 
     public SiteView(Context context, Site site) {
         super(context);
@@ -22,6 +23,8 @@ public class SiteView extends LinearLayout{
         inflater.inflate(R.layout.card_view, this, true);
         this.setSite(site);
         requestLayout();
+
+
     }
 
     /**
@@ -32,7 +35,5 @@ public class SiteView extends LinearLayout{
      */
     public void setSite(Site site) {
         this.site = site;
-
-
     }
 }
