@@ -4,9 +4,8 @@ package com.tinkersstudio.polyhike;
  * Created by Owner on 1/14/2017.
  */
 
-<<<<<<< HEAD
 public class Site {
-=======
+
 public class Site implements {
 
     protected int parkingSpots;
@@ -24,12 +23,5 @@ public class Site implements {
         this.trailLength = trailLength;
         this.difficulty = difficulty;
     }
-
-    
-
-
-
-
->>>>>>> 6d3e8d1e058e668583d55468f5ef98263df56724
 
 }
