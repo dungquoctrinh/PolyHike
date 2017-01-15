@@ -5,5 +5,5 @@ package com.tinkersstudio.polyhike;
  */
 
 public class Site {
-    
+
 }
