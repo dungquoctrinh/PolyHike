@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hike SLO</string>
+    <string name="title_activity_login_in_window">LoginInWindow</string>
+    <string name="filter_menuitem">Sort</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="distance">Distance</string>
+    <string name="popularity">Popularity</string>
+</resources>
