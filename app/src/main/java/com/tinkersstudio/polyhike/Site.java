@@ -21,6 +21,14 @@ public class Site {
         this.trailLength = trailLength;
         //Set difficulty
         this.difficulty = difficulty;
+    }
 
+    /**
+     * Return the summary
+     * @return
+     */
+    public String getSumary()
+    {
+        return description.substring(0, 30) + "...";
     }
 }
