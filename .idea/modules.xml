@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PolyHike.iml" filepath="$PROJECT_DIR$/PolyHike.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HikeSLO.iml" filepath="$PROJECT_DIR$/HikeSLO.iml" />
     </modules>
   </component>
 </project>
