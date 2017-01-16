@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "96899389941",
+    "firebase_url": "https://polyhike.firebaseio.com",
+    "project_id": "polyhike",
+    "storage_bucket": "polyhike.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96899389941:android:06fd8c451d0a9df2",
+        "android_client_info": {
+          "package_name": "com.tinkersstudio.polyhike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96899389941-vlb8um574356co82iuteblcvi70dhg12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tinkersstudio.polyhike",
+            "certificate_hash": "5D3FAE7D999F687C92B19DC82FAB74E987AF3D58"
+          }
+        },
+        {
+          "client_id": "96899389941-3lckl1259eilcnakrm4remhqmu879add.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2iE9wNQnyWhRp8hMVUEIFlBK_fb3AAzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96899389941-3lckl1259eilcnakrm4remhqmu879add.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
