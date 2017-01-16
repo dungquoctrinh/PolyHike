@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tinkersstudio.polyhike">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,11 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Hike SLO" />
         <activity
             android:name=".LoginIn"
-            android:label="@string/title_activity_login_in_window"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_login_in_window" />
+        <activity android:name=".HikeInfo"
+            android:theme="@style/AppTheme"
+            android:label="Hike SLO"/>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".EndTrail"></activity>
+        <service android:name=".MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

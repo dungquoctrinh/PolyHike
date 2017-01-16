@@ -23,8 +23,6 @@ public class SiteView extends LinearLayout{
         inflater.inflate(R.layout.card_view, this, true);
         this.setSite(site);
         requestLayout();
-
-
     }
 
     /**

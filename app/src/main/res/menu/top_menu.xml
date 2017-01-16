@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_filter"
+        android:icon="@drawable/toggle_bar_1x"
         android:title="@string/filter_menuitem"
-        android:showAsAction="ifRoom"
-        tools:ignore="AppCompatResource">
+        app:showAsAction="always|withText">
         <menu>
             <item android:id="@+id/submenu_like" android:title="@string/difficulty"/>
             <item android:id="@+id/submenu_dislike" android:title="@string/distance"/>
